@@ -1,0 +1,72 @@
+.container{
+text-align: center;
+justify-content: center;
+display: flex align items;
+align-items: center;
+height: 76vh;
+}
+
+.title{
+margin: top 40px; 
+color: white;
+font-size: 40px;
+display: flex align-items;
+justify-content: center;
+align-items: center; 
+}
+
+.title span {
+ color: aqua;
+ padding-left: 10px;
+
+}
+.reset {
+    width: 130px;
+    height: 90px;
+    border: 1px solid #1f3540;
+    outline: blanchedalmond;
+    cursor: pointer;
+    border-radius: 70px; /* Corrected the border-radius syntax */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f3540;
+    font-size: 30px;
+    color: #26ffcb;
+    margin: 50px auto 70px auto; /* Centered horizontally with auto margins */
+}
+
+.boxes{
+    display: flex;
+    height: 175px;
+    width: 190px;
+    background: 170px;
+    border: 4px solid #0f1b21;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex align-items;
+    align-items: center;
+}
+.board{
+    width:460px;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    outline: white;
+    display: flex align-items;
+    align-items: center;
+}
+.boxes img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    margin: 0; 
+}
+.won {
+    width: 50px;
+    height: 50px;
+}
+.title img{
+    padding: 20px 20px;
+    height: 100px;
+}
